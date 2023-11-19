@@ -22,7 +22,7 @@ public class EditorControllerEditorWindow : EditorWindow
             AssetDatabase.Refresh();
         }
 
-        if (GUILayout.Button("Refresh/Play", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
+        if (GUILayout.Button("Refresh and Play", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
         {
             AssetDatabase.Refresh();
 
